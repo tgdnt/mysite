@@ -23,7 +23,7 @@ author:
   email: tgdnt@pm.me
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-org
