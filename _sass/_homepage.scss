@@ -1,0 +1,33 @@
+// Styles for my home page
+
+.avatar {
+    width: 40%;
+    margin: 5em auto 1em auto;
+    border-radius: 50%
+}
+
+.hometitle {
+    margin: 0 auto
+}
+
+.hometitle div {
+    font-size: 2.5em;
+    text-align: center
+}
+
+nav.homenav {
+    margin: 1em auto
+}
+nav.homenav ul {
+    list-style-type: none
+}
+
+nav.homenav ul li {
+    float: left;
+    margin: 0.5em
+}
+
+nav.homenav ul li a {
+    color: #515151;
+    font-size: 1.5em;
+}
