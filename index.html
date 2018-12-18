@@ -12,24 +12,21 @@ title: Home
 
     <div class="container content">
 
-      <main>
+      <header class="header-home animated">
           <img class="avatar" src="public/avatar.jpg" alt="Tiago Donato" />
-          <div class="hometitle">
-              <div>Tiago Donato</div>
+          <h1 class="hometitle">Tiago Donato</h1>
+          <div class="social-links">
           </div>
-          <nav class="homenav">
-            <ul>
-                <li><a href="about">About</a></li>
-                <li><a href="blog">Blog</a></li>
-            </ul>
-          </nav>
-      </main>
+     </header> 
 
-      <footer class="footer">
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
-      </footer>
+     <nav class="homenav">
+       <ul>
+           <li><a href="about">About</a></li>
+           <li><a href="blog">Blog</a></li>
+           <li><a href="background" >Background</a></li>
+       </ul>
+     </nav>
+
     </div>
 
     {% if site.analytics_id %}

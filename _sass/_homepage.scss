@@ -1,33 +1,43 @@
 // Styles for my home page
 
+.header-home {
+    display: block;
+    margin-top: 8rem;
+    text-align: center
+}
+
+.animated {
+    animation: fade-in-down .6s;
+    animation-delay: .3s;
+    animation-fill-mode: both
+}
+
 .avatar {
-    width: 40%;
-    margin: 5em auto 1em auto;
+    width: 125px;
+    margin: 0 auto;
     border-radius: 50%
 }
 
 .hometitle {
-    margin: 0 auto
-}
-
-.hometitle div {
-    font-size: 2.5em;
-    text-align: center
+    margin: 1.5rem auto;
+    font-size: 1.5rem
 }
 
 nav.homenav {
-    margin: 1em auto
+    margin: 0 auto;
+    text-align: center
 }
 nav.homenav ul {
-    list-style-type: none
+    list-style: none;
+    padding: 0
 }
 
 nav.homenav ul li {
-    float: left;
-    margin: 0.5em
+    display: inline-block
 }
 
 nav.homenav ul li a {
     color: #515151;
-    font-size: 1.5em;
+    font-size: .8rem;
+    padding: 0 0.75em;
 }
