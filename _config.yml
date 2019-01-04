@@ -9,6 +9,13 @@ paginate: 1
 baseurl: ""
 repo_name: tgdnt/tgdnt.com
 
+# Social links:
+github: tgdnt
+email: tgdnt@pm.me
+
+avatar:
+  alt: "Tiago Donato"
+  url: public/avatar.jpg
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -26,4 +33,4 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-org
+#  - jekyll-org

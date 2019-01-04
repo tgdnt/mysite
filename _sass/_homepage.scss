@@ -3,37 +3,38 @@
 .header-home {
     display: block;
     margin-top: 8rem;
-    text-align: center
-}
-
-.animated {
-    animation: fade-in-down .6s;
-    animation-delay: .3s;
-    animation-fill-mode: both
+    text-align: center;
 }
 
 .avatar {
     width: 125px;
     margin: 0 auto;
-    border-radius: 50%
+    border-radius: 50%;
+    transition: all .2s;
+    box-shadow: 0;
+    opacity: 1;
+    &:hover {
+        box-shadow: .15rem .15rem .3rem .1rem rgba(0, 0, 0, 0.18);
+        opacity: .8;
+    }
 }
 
 .hometitle {
     margin: 1.5rem auto;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 nav.homenav {
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 nav.homenav ul {
     list-style: none;
-    padding: 0
+    padding: 0;
 }
 
 nav.homenav ul li {
-    display: inline-block
+    display: inline-block;
 }
 
 nav.homenav ul li a {

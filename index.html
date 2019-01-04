@@ -12,22 +12,22 @@ title: Home
 
     <div class="container content">
 
-      <header class="header-home animated">
-          <img class="avatar" src="public/avatar.jpg" alt="Tiago Donato" />
+      <header class="header-home">
+          <img class="avatar" src="{{ site.avatar.url }}" alt="{{ site.avatar.alt }}" />
           <h1 class="hometitle">Tiago Donato</h1>
-          <div class="social-links">
-          </div>
+          {% include social-links.html %}
      </header> 
 
      <nav class="homenav">
        <ul>
            <li><a href="about">About</a></li>
            <li><a href="blog">Blog</a></li>
-           <li><a href="background" >Background</a></li>
        </ul>
      </nav>
 
     </div>
+
+    {% include icons.html %}
 
     {% if site.analytics_id %}
      <script>
