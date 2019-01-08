@@ -6,6 +6,7 @@ title: Tiago Donato
 # tagline:
 url: https://tgdnt.com
 paginate: 1
+paginate_path: "/blog/page:num/"
 baseurl: ""
 repo_name: tgdnt/tgdnt.com
 
