@@ -10,6 +10,14 @@ repo_name: tgdnt/tgdnt.com
 paginate: 1
 paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Tiago Donato"
 
 # Social links:
 github: tgdnt
