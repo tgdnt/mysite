@@ -13,7 +13,8 @@ title: Blog
     </h1>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %d, %Y' }}</time>
-    {{ post.lede }}
+    {{ post.excerpt }}
+    <a class="readlink" href="{{ site.baseurl }}{{post.url }}">more&hellip;</a>
   </article>
   {% endfor %}
 </div>
