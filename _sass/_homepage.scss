@@ -27,18 +27,19 @@
 nav.homenav {
     margin: 0 auto;
     text-align: center;
-}
-nav.homenav ul {
-    list-style: none;
-    padding: 0;
-}
 
-nav.homenav ul li {
-    display: inline-block;
-}
+    ul {
+        list-style: none;
+        padding: 0;
 
-nav.homenav ul li a {
-    color: #515151;
-    font-size: .8rem;
-    padding: 0 0.75em;
+        li {
+            display: inline-block;
+
+            a {
+            color: #515151;
+            font-size: .8rem;
+            padding: 0 0.75em;
+            }
+        }
+    }
 }
