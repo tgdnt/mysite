@@ -11,12 +11,18 @@
       display: inline-block;
       float: right;
       text-decoration: none;
+
       ul {
           list-style: none;
+
           li {
               font-size: .85rem;
               display: inline-block;
               margin-left: .5rem;
+
+              a {
+                  color: #515151;
+              }
           }
       }
   }
