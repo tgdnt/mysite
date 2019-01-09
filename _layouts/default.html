@@ -13,8 +13,16 @@ layout: compress
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
         </h3>
+        {% if site.nav %}
+        <nav>
+            <ul>
+                {% for item in site.nav %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
       </header>
 
       <main>

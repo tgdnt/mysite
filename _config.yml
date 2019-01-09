@@ -1,12 +1,17 @@
-# Permalinks
+## Permalinks
 permalink: pretty
 
-# Setup
+## Setup
 title: Tiago Donato
 # tagline:
 url: https://tgdnt.com
 baseurl: ""
 repo_name: tgdnt/tgdnt.com
+#nav:
+#  - title: Casa
+#    url: /index.html
+#  - title: Blog
+#    url: /blog
 paginate: 1
 paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
@@ -19,27 +24,27 @@ defaults:
       layout: "post"
       author: "Tiago Donato"
 
-# Social links:
+## Social links:
 github: tgdnt
 email: tgdnt@pm.me
 
 avatar:
   alt: "Tiago Donato"
   url: public/avatar.jpg
-# Assets
+## Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: _sass
   style: :compressed
 
-# About/contact
+## About/contact
 author:
   name: Tiago Donato
   url: https://tgdnt.com
   email: tgdnt@pm.me
 
-# Gems
+## Gems
 plugins:
   - jekyll-paginate
   - jekyll-gist

@@ -6,9 +6,24 @@
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+
+  nav {
+      display: inline-block;
+      float: right;
+      text-decoration: none;
+      ul {
+          list-style: none;
+          li {
+              font-size: .85rem;
+              display: inline-block;
+              margin-left: .5rem;
+          }
+      }
+  }
 }
 
 .masthead-title {
+  display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
   color: $gray-4;
