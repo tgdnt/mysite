@@ -25,6 +25,7 @@ h3, h4, h5, h6 {
 }
 
 p {
+  font-family: $body-font-family;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -34,6 +35,7 @@ strong {
 }
 
 ul, ol, dl {
+  font-family: $body-font-family;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -98,6 +100,12 @@ a[href^="#fnref:"] {
 
 .footnote-ref {
     font-size: .85rem;
+    color: #9da7ae;
+    margin-left: .08rem;
+}
+
+.footnote-back {
+    margin-left: .2rem;
 }
 
 // List of footnotes

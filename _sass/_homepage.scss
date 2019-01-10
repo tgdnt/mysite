@@ -29,6 +29,7 @@ nav.homenav {
     text-align: center;
 
     ul {
+        font-family: $root-font-family;
         list-style: none;
         padding: 0;
 
@@ -42,10 +43,4 @@ nav.homenav {
             }
         }
     }
-}
-
-.readlink {
-    display: block;
-    text-decoration: none;
-    margin-top: .25rem;
 }
