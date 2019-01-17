@@ -4,3 +4,5 @@ _site
 .#*
 Gemfile.lock
 public/avatar.jpg
+about.html
+_posts
