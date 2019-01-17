@@ -22,7 +22,12 @@ defaults:
     values:
       layout: "post"
       author: "Tiago Donato"
-
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 ## Social links:
 github: tgdnt
 email: tgdnt@pm.me
