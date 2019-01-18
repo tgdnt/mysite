@@ -17,12 +17,13 @@
           list-style: none;
 
           li {
-              font-size: .85rem;
               display: inline-block;
               margin-left: .5rem;
 
               a {
                   color: #515151;
+                  font-weight: bold;
+                  font-size: .75rem;
               }
           }
       }
@@ -31,6 +32,7 @@
 
 .masthead-title {
   display: inline-block;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
   color: $gray-4;
