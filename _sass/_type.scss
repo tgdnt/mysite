@@ -7,24 +7,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 1.8rem;
-  font-weight: bold;
 }
 
 h2 {
   margin-top: 1rem;
   font-size: 1.2rem;
-  font-weight: bold;
 }
 
 h3, h4, h5, h6 {
-  color: #848484;
-  font-weight: lighter;
   margin-top: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 p {
