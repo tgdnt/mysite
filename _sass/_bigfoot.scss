@@ -99,13 +99,13 @@ $popover-transition-default-timing-function:     ease !default;
 // KEY VARIABLES
 // =============================================================================
 
-$button-height:                         0.9em !default;                         // The total height of the button
+$button-height:                         0.7em !default;                         // The total height of the button
 $button-width:                          auto !default;                           // The total button width (applies only if $button-apply-dimensions is true)
-$button-inner-circle-size:              0.18em !default;                         // Total height/width of the ellipsis circles
+$button-inner-circle-size:              0.15em !default;                         // Total height/width of the ellipsis circles
 $button-border-radius:                  0.3em !default;                          // Border radius on the button itself
 $button-left-margin:                    0.2em !default;                          // Margin between the button and the text to its left
 $button-right-margin:                   0.1em !default;                          // Margin between the button and the text to its right
-$button-vertical-adjust:                -0.1em !default;                         // Pushes the buttons along the vertical axis to align it with text as desired
+$button-vertical-adjust:                0 !default;                         // Pushes the buttons along the vertical axis to align it with text as desired
 $button-inner-circle-left-margin:       1*$button-inner-circle-size !default;    // Space between the ellipsis circles
 
 $button-color:                          rgb(110, 110, 110) !default;             // Background color of the button
