@@ -17,6 +17,7 @@
 .post-title,
 .post-title a {
   color: #303030;
+  text-decoration:none;
 }
 .page-title,
 .post-title {
@@ -34,7 +35,6 @@
 
 .post-lede {
     font-family: $body-font-family;
-    font-style: italic;
 }
 
 .more {
@@ -42,7 +42,6 @@
     font-family: $body-font-family;
     font-style: italic;
     font-size: 1rem;
-    text-decoration: none;
     margin-top: .1rem;
 }
 
