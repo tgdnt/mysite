@@ -53,4 +53,6 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-gist
-#  - jekyll-org
+  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-archives
