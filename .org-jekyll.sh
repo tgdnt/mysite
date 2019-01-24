@@ -7,4 +7,4 @@ find ./.orgsource -name "*.org" | while read -r filename; do
     pandoc -t html -o $newfilename $filename.temp.org
     rm $filename.temp.org
 done
-jekyll $1
+bundle exec jekyll $@
