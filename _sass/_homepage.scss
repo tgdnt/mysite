@@ -40,8 +40,10 @@ nav.homenav {
             color: #515151;
             font-size: .85rem;
             padding: 0 0.75em;
-            font-weight: bold;
             text-decoration: none;
+            &:hover {
+                color: $link-color;
+            }
             }
         }
     }

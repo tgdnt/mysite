@@ -22,9 +22,11 @@
 
               a {
                   color: #515151;
-                  font-weight: bold;
                   font-size: .75rem;
                   text-decoration: none;
+                  &:hover {
+                      color: #b14444;
+                  }
               }
           }
       }
