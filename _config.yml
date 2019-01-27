@@ -6,6 +6,8 @@ title: Tiago Donato
 url: https://tgdnt.com
 baseurl: ""
 repo_name: tgdnt/tgdnt.com
+timezone: America/Chicago
+
 nav:
   - title: Home
     url: /
