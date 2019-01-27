@@ -21,7 +21,7 @@
               margin-left: .5rem;
 
               a {
-                  color: #515151;
+                  color: $body-color;
                   font-size: .75rem;
                   font-weight: bold;
                   text-decoration: none;
@@ -39,10 +39,9 @@
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  color: #313131;
 
   a {
-    color: inherit;
+    color: $body-color;
     text-decoration:none;
   }
 
