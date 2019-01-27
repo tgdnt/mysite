@@ -14,7 +14,7 @@ nav:
 paginate: 1
 paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
-exclude: ["/.orgsource"]
+exclude: ["/_orgsource"]
 defaults:
   -
     scope:
@@ -30,7 +30,23 @@ defaults:
     values:
       layout: "page"
 ## Social links:
+# facebook: myfacebook
+twitter: tgdnt
+# google: mygoogle
+instagram: tgdnt
+# pinterest: mypinterest
+linkedin: tiagodonato
+# youtube: tiagodonato@gmail.com
+# spotify: myspotify
 github: tgdnt
+# gitlab: mygitlab
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: tiagodonato
+# lanyrd: mylanyrd
 email: tgdnt@pm.me
 
 avatar:
