@@ -5,4 +5,4 @@ _site
 Gemfile.lock
 public/avatar.jpg
 _posts
-_pages
+about/
