@@ -22,5 +22,11 @@
 
 @font-face {
     font-family: "Fira Sans";
-    src: url("../fonts/FiraSans-SemiBold.otf");
+    src: url("../fonts/FiraSans-Light.otf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    font-weight: bold;
+    src: url("../fonts/FiraSans-Medium.otf");
 }

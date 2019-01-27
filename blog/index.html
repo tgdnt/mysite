@@ -14,9 +14,9 @@ title: Blog
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %d, %Y' }}</time>
 
-    <span class="post-lede">{{ post.lede | textilize }}</span>
+    <a class="post-lede" href="{{ site.baseurl }}{{ post.url }}">{{ post.lede | textilize }}</a>
 
-    <a class="more" href="{{ site.baseurl }}{{post.url }}">read more&hellip;</a>
+    <a class="more" href="{{ site.baseurl }}{{post.url }}">read more</a>
 
   </article>
   {% endfor %}

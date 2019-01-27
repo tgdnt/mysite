@@ -5,7 +5,7 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 
   li + li {
     margin-top: .25rem;
@@ -22,11 +22,12 @@
 .page-title,
 .post-title {
   margin-top: 0;
+  font-family: "Fira Sans Light";
 }
 
 // Meta data line below post title
 .post-date {
-  font-size: .9rem;
+  font-size: .75rem;
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
@@ -35,6 +36,8 @@
 
 .post-lede {
     font-family: $body-font-family;
+    text-decoration: none;
+    color: $body-color;
 }
 
 .more {
