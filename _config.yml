@@ -27,8 +27,7 @@ defaults:
       author: "Tiago Donato"
   -
     scope:
-      path: ""
-      type: "pages"
+      path: "about"
     values:
       layout: "page"
 ## Social links:
