@@ -69,5 +69,6 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - classifier-reborn
 #  - jekyll-seo-tag
 #  - jekyll-archives
