@@ -3,6 +3,7 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
+  font-family: $masthead-font-family;
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -13,8 +14,8 @@
       text-decoration: none;
 
       ul {
-          font-family: $root-font-family;
           list-style: none;
+          font-family: inherit;
 
           li {
               display: inline-block;

@@ -1,18 +1,29 @@
 @font-face {
-    font-family: "Linux Libertine O";
-    src: url("../fonts/LinLibertine_R.otf")
+    font-family: "Libertinus Serif";
+    src: url("../fonts/libertinusserif-regular.otf");
 }
 
 @font-face {
-    font-family: "Linux Libertine O";
+    font-family: "Libertinus Serif";
     font-weight: bold;
-    src: url("../fonts/LinLibertine_RB.otf");
+    src: url("../fonts/libertinusserif-bold.otf");
 }
 
 @font-face {
-    font-family: "Linux Libertine O";
+    font-family: "Libertinus Serif";
     font-style: italic;
-    src: url("../fonts/LinLibertine_RI.otf");
+    src: url("../fonts/libertinusserif-italic.otf");
+}
+
+@font-face {
+    font-family: "Libertinus Sans";
+    src: url("../fonts/libertinussans-regular.otf");
+}
+
+@font-face {
+    font-family: "Libertinus Sans";
+    font-weight: bold;
+    src: url("../fonts/libertinussans-bold.otf");
 }
 
 @font-face {
@@ -21,12 +32,6 @@
 }
 
 @font-face {
-    font-family: "Fira Sans";
-    src: url("../fonts/FiraSans-Light.otf");
-}
-
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: bold;
-    src: url("../fonts/FiraSans-Medium.otf");
+    font-family: "Fira Sans Light";
+    src: url("../fonts/FiraSans-Light.otf")
 }
