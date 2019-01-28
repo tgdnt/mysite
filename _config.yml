@@ -9,15 +9,21 @@ repo_name: tgdnt/tgdnt.com
 timezone: America/Chicago
 
 nav:
-  - title: Home
-    url: /
+  - title: About
+    url: /about
   - title: Blog
     url: /blog
 paginate: 1
 paginate_path: "/blog/page:num/"
-excerpt_separator: <!--more-->
 exclude: ["/_orgsource"]
+# related_posts: yes
+
 defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Tiago Donato"
   -
     scope:
       path: ""
@@ -30,6 +36,7 @@ defaults:
       path: "about"
     values:
       layout: "page"
+
 ## Social links:
 # facebook: myfacebook
 twitter: tgdnt
@@ -70,6 +77,6 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-feed
-  - classifier-reborn
+#  - classifier-reborn
 #  - jekyll-seo-tag
 #  - jekyll-archives
