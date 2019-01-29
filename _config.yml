@@ -24,6 +24,7 @@ defaults:
       path: ""
     values:
       author: "Tiago Donato"
+      layout: "page"
   -
     scope:
       path: ""
@@ -31,11 +32,6 @@ defaults:
     values:
       layout: "post"
       author: "Tiago Donato"
-  -
-    scope:
-      path: "about"
-    values:
-      layout: "page"
 
 ## Social links:
 # facebook: myfacebook
