@@ -8,21 +8,21 @@
 }
 
 .avatar {
-    width: 125px;
+    width: 7rem;
+    border: 2px solid #f0f0f0;
     margin: 0 auto;
     border-radius: 50%;
     transition: all .2s;
     box-shadow: 0;
     opacity: 1;
     &:hover {
-        box-shadow: 0 0 .5rem .15rem rgba(100, 0, 0, 0.4);
         opacity: .8;
     }
 }
 
 .hometitle {
     margin: 1.5rem auto;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: $masthead-font-family;
 }
 
