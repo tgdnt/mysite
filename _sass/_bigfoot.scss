@@ -573,7 +573,8 @@ $button-transition-properties:      background-color !default;
 
   // TEXT
   -webkit-font-smoothing: subpixel-antialiased;
-  line-height: normal;
+  line-height: 1.6;
+  font-size: 85%;
 
   // INTERIOR ELEMENTS
   img { max-width: 100%; }
