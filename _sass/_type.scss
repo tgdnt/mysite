@@ -123,3 +123,23 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+.pnf {
+    display: block;
+    margin: 3rem 0;
+    line-height: 0.9;
+    font-size: 0.2rem;
+    width: 452px;
+
+    @media (min-width: $large-breakpoint) {
+        width: 452px;
+    }
+    @media (min-width: 480px) {
+        font-size: 0.4rem;
+        width: 547px;
+    }
+    @media (min-width: 720px) {
+        font-size: 0.5rem;
+        width: 684px;
+    }
+}
