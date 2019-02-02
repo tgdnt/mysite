@@ -101,9 +101,16 @@
         </a>
     {% endif %}
 
+    {% if site.mastodon %}
+        <a class="link" data-title="{{ site.mastodon }}" href="https://{{ site.mastodon }}" target="_blank">
+            <svg class="icon icon-mastodon"><use xlink:href="#icon-mastodon"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
 </div>
