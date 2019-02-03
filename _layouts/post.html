@@ -11,7 +11,7 @@ layout: default
 </article>
 
 {% unless page.nocomment %}
-  <a class="commentbyemail" href="mailto:tgdnt@pm.me?subject={{ page.title | uri_escape }}">Discuss this post via email</a>
+  <a class="commentbyemail" href="mailto:{{ site.comment_to_email }}?subject={{ page.title | uri_escape }}">Discuss this post via email</a>
 {% endunless %}
 
 {% if site.related_posts != empty %}

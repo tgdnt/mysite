@@ -5,7 +5,6 @@ permalink: pretty
 title: Tiago Donato
 url: https://tgdnt.com
 baseurl: ""
-repo_name: tgdnt/tgdnt.com
 timezone: America/Chicago
 
 nav:
@@ -52,7 +51,9 @@ github: tgdnt
 # vimeo: tiagodonato
 # lanyrd: mylanyrd
 mastodon: masto.donte.com.br/@tgdnt
-email: tgdnt@pm.me
+email: tiago@tgdnt.com
+
+comment_to_email: tiago@tgdnt.com
 
 avatar:
   alt: "Tiago Donato"
@@ -68,7 +69,7 @@ sass:
 author:
   name: Tiago Donato
   url: https://tgdnt.com
-  email: tgdnt@pm.me
+  email: tiago@tgdnt.com
 
 ## Gems
 plugins:
