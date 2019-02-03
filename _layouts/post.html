@@ -9,8 +9,8 @@ layout: default
   <hr>
   {{ content }}
 </article>
-
 {% unless page.nocomment %}
+<hr>
 <p class="commentbyemail"><a href="mailto:{{ site.comment_to_email }}?subject={{ page.title | uri_escape }}">Discuss this post via email</a></p>
 {% endunless %}
 
