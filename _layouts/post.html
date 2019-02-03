@@ -14,7 +14,7 @@ layout: default
   <a class="commentbyemail" href="mailto:{{ site.comment_to_email }}?subject={{ page.title | uri_escape }}">Discuss this post via email</a>
 {% endunless %}
 
-{% if site.related_posts != empty %}
+{% unless site.no_related_posts or page.no_related_posts %}
 <aside class="related">
   <h3>Related posts</h3>
   <ul class="related-posts">
@@ -28,4 +28,4 @@ layout: default
     {% endfor %}
   </ul>
 </aside>
-{% endif %}
+{% endunless %}

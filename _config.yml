@@ -12,10 +12,10 @@ nav:
     url: /about
   - title: Blog
     url: /blog
-paginate: 1
+paginate: 3
 paginate_path: "/blog/page:num/"
 exclude: ["/_orgsource"]
-# related_posts: yes
+no_related_posts: true
 
 defaults:
   -
