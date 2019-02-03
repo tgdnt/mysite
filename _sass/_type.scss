@@ -97,6 +97,13 @@ a[href^="#fnref:"] {
   font-weight: bold;
 }
 
+.footnote-processed {
+    margin-bottom: 1.7rem;
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
+
 .footnote-ref {
     font-size: .85rem;
     color: $body-color;
@@ -126,6 +133,7 @@ a[href^="#fnref:"] {
   font-weight: 300;
 }
 
+// PAGE NOT FOUND
 .pnf {
     display: block;
     margin: 3rem 0;
