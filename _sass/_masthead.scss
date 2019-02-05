@@ -6,7 +6,10 @@
   font-family: $masthead-font-family;
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  @media (min-width: $large-breakpoint) {
+      margin-bottom: 0.6rem;
+  }
 
   nav {
       display: inline-block;
@@ -16,6 +19,7 @@
       ul {
           list-style: none;
           font-family: inherit;
+          margin-bottom: 0;
 
           li {
               display: inline-block;
