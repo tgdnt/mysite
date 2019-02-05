@@ -1,4 +1,3 @@
-rm -rf _posts/*
 find ./_orgsource -name "*.org" | while read -r filename; do
     sed -e 's/\(\#\+BEGIN\_SRC \)\(.*\)/\#\+BEGIN_HTML\
 {\% highlight \2 \%}/' -e 's/\#\+END\_SRC/{\% endhighlight \%}\
@@ -7,4 +6,5 @@ find ./_orgsource -name "*.org" | while read -r filename; do
     pandoc -t html -o $newfilename $filename.temp.org
     rm $filename.temp.org
 done
+cp ./_orgsource/images/* ./assets/images/
 bundle exec jekyll $@
