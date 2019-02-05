@@ -1,0 +1,23 @@
+// All image classes
+
+.post, .page {
+    img {
+        width: 22rem;
+        margin: 0 auto;
+        box-shadow: 3px 3px 5px rgba(129,129,129,0.6);
+        @media (min-width: $large-breakpoint) {
+            max-width: 18rem;
+        }
+        @media (min-width: 760px) {
+            max-width: 24rem;
+        }
+    }
+    @media (min-width: $large-breakpoint) {
+        img.float-right {
+            float: right;
+        }
+        img.float-left {
+            float: left;
+        }
+    }
+}
