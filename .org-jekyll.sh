@@ -1,3 +1,4 @@
+git clean -df
 mkdir _posts
 find ./_orgsource -name "*.org" | while read -r filename; do
     sed -e 's/\(\#\+BEGIN\_SRC \)\(.*\)/\#\+BEGIN_HTML\
