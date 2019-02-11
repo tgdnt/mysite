@@ -553,7 +553,6 @@ $button-transition-properties:      background-color !default;
 // Contains the actual footnote content. There is very little prescription here
 // on the footnote content itself, except for removing and top margin on the first
 // element and bottom margin on the last child.
-
 // @since 2.1.0
 // @author Chris Sauve
 
@@ -577,7 +576,7 @@ $button-transition-properties:      background-color !default;
   // TEXT
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: 1.6;
-  font-size: 85%;
+  font-size: 90%;
 
   // INTERIOR ELEMENTS
   img { max-width: 100%; }

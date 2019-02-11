@@ -13,7 +13,7 @@ layout: default
 </article>
 {% unless page.nocomment %}
 <hr>
-<p class="commentbyemail"><a href="mailto:{{ site.comment_to_email }}?subject={{ page.title | uri_escape }}">Discuss this post via email</a></p>
+<p><a href="mailto:{{ site.comment_to_email }}?subject={{ page.title | uri_escape }}">Discuss this post via email</a></p>
 {% endunless %}
 
 {% unless site.no_related_posts or page.no_related_posts %}
