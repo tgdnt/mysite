@@ -2,17 +2,17 @@
 
 .post, .page {
     img {
-        width: 22rem;
+        width: 440px;
         margin: 0 auto;
         box-shadow: 2px 2px 5px rgba(129,129,129,0.6);
-        @media (min-width: $large-breakpoint) {
-            max-width: 18rem;
+        @media (min-width: 600px) {
+            max-width: 300px;
         }
         @media (min-width: 760px) {
-            max-width: 24rem;
+            max-width: 480px;
         }
     }
-    @media (min-width: $large-breakpoint) {
+    @media (min-width: 600px) {
         img.float-right {
             float: right;
         }
