@@ -19,6 +19,9 @@ title: Blog
     <a class="more" href="{{ site.baseurl }}{{post.url }}">read more</a>
 
   </article>
+  {% unless forloop.last  %}
+    <hr>
+  {% endunless %}
   {% endfor %}
 </div>
 
