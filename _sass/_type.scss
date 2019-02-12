@@ -171,4 +171,7 @@ aside {
     code {
         background-color: #efefef;
     }
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
