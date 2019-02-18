@@ -37,9 +37,11 @@
 
 .post-lede {
     font-family: $body-font-family;
-    text-decoration: none;
     color: $body-color;
     font-size: 1.1rem;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .more {
