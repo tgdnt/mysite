@@ -1,5 +1,5 @@
 git clean -df
-mkdir _posts
+mkdir _posts _drafts
 find ./_orgsource -name "*.org" | while read -r filename; do
     sed -e 's/\(\#\+BEGIN\_SRC \)\(.*\)/\#\+BEGIN_HTML\
 {\% highlight \2 \%}/' -e 's/\#\+END\_SRC/{\% endhighlight \%}\
