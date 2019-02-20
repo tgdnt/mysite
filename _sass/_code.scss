@@ -44,7 +44,10 @@ pre code {
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
+    overflow-x: hidden;
+    &:hover {
+        overflow-x: auto;
+    }
   }
 
   .lineno {
