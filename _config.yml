@@ -55,7 +55,7 @@ mastodon: masto.donte.com.br/@tgdnt
 keybase: tgdnt
 email: tiago@tgdnt.com
 
-comment_to_email: tiago@tgdnt.com
+comments_email: tiago@tgdnt.com
 
 avatar:
   alt: "Tiago Donato"
