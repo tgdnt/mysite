@@ -1,0 +1,16 @@
+os: osx
+language: ruby
+addons:
+  homebrew:
+    packages:
+    - pandoc
+    - awscli
+rvm:
+- 2.5.3
+script:
+- "./.org-jekyll.sh build"
+- "./.deploy.sh"
+branches:
+  only:
+  - master
+cache: bundler
