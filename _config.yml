@@ -1,5 +1,5 @@
 ## Permalinks
-permalink: :slug
+permalink: /:slug/
 
 ## Setup
 title: Tiago Donato
@@ -14,7 +14,7 @@ nav:
     url: /blog
 paginate: 3
 paginate_path: "/blog/page:num/"
-exclude: ["_orgsource", vendor]
+exclude: [_orgsource, vendor, Gemfile, Gemfile.lock]
 no_related_posts: true
 
 defaults:
