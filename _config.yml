@@ -10,6 +10,8 @@ timezone: America/Chicago
 nav:
   - title: About
     url: /about
+  - title: Projects
+    url: /projects
   - title: Blog
     url: /blog
 paginate: 3
@@ -35,9 +37,9 @@ defaults:
 
 ## Social links:
 # facebook: myfacebook
-twitter: tgdnt
+# twitter: tgdnt
 # google: mygoogle
-instagram: tgdnt
+# instagram: tgdnt
 # pinterest: mypinterest
 linkedin: tiagodonato
 # youtube: tiagodonato@gmail.com
