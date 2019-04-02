@@ -107,6 +107,19 @@ a[href^="#fnref:"] {
     color: $body-color;
     margin-left: .08rem;
     text-decoration: none;
+    border: none;
+    sup {
+        font-size: 75%;
+        border: 1px solid $body-color;
+        padding: 0 .2rem;
+        &:hover {
+            color: $body-bg;
+            background-color: $body-color;
+        }
+    }
+    &:hover {
+        border: none;
+    }
 }
 
 .footnote-back {
@@ -114,6 +127,8 @@ a[href^="#fnref:"] {
     text-decoration: none;
     position: relative;
     top: 0.1rem;
+    border: 0;
+    &:hover {border: 0;}
 }
 
 // List of footnotes
