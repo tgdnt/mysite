@@ -20,8 +20,9 @@ title: Home
 
      <nav class="homenav">
        <ul>
-           <li><a href="about">About</a></li>
-           <li><a href="blog">Blog</a></li>
+           {% for item in site.nav %}
+           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
        </ul>
      </nav>
 
