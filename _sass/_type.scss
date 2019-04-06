@@ -109,9 +109,12 @@ a[href^="#fnref:"] {
     text-decoration: none;
     border: none;
     sup {
-        font-size: 75%;
+        position: relative;
+        top: .1rem;
+        font-family: $code-font-family;
+        font-size: 60%;
         border: 1px solid $body-color;
-        padding: 0 .2rem;
+        padding: 0 .15rem;
         &:hover {
             color: $body-bg;
             background-color: $body-color;
