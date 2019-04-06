@@ -1,37 +1,43 @@
 @font-face {
-    font-family: "Libertinus Serif";
-    src: url("../fonts/libertinusserif-regular.otf");
-}
-
-@font-face {
-    font-family: "Libertinus Serif";
-    font-weight: bold;
-    src: url("../fonts/libertinusserif-bold.otf");
-}
-
-@font-face {
-    font-family: "Libertinus Serif";
-    font-style: italic;
-    src: url("../fonts/libertinusserif-italic.otf");
-}
-
-@font-face {
-    font-family: "Libertinus Sans";
-    src: url("../fonts/libertinussans-regular.otf");
-}
-
-@font-face {
-    font-family: "Libertinus Sans";
-    font-weight: bold;
-    src: url("../fonts/libertinussans-bold.otf");
-}
-
-@font-face {
     font-family: "Source Code Pro";
     src: url("../fonts/SourceCodePro-Regular.otf");
 }
 
 @font-face {
     font-family: "Fira Sans Light";
-    src: url("../fonts/FiraSans-Light.otf")
+    src: url("../fonts/FiraSans-Light.otf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url("../fonts/FiraSans-Regular.otf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    font-weight: bold;
+    src: url("../fonts/FiraSans-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    font-style: italic;
+    src: url("../fonts/FiraSans-Italic.otf");
+}
+
+@font-face {
+    font-family: "Zilla Slab";
+    src: url("../fonts/ZillaSlab-Regular.otf");
+}
+
+@font-face {
+    font-family: "Zilla Slab";
+    font-weight: bold;
+    src: url("../fonts/ZillaSlab-Bold.otf");
+}
+
+@font-face {
+    font-family: "Zilla Slab";
+    font-style: italic;
+    src: url("../fonts/ZillaSlab-Italic.otf");
 }
