@@ -3,7 +3,6 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  font-family: $masthead-font-family;
   padding: 1rem 0;
   margin-bottom: 0;
   @media (min-width: $large-breakpoint) {
@@ -27,7 +26,6 @@
               a {
                   color: $body-color;
                   font-size: .75rem;
-                  font-weight: bold;
                   text-decoration: none;
                   &:hover {
                       color: #b14444;

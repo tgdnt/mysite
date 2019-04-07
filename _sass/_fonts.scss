@@ -1,43 +1,31 @@
-@font-face {
-    font-family: "Source Code Pro";
-    src: url("../fonts/SourceCodePro-Regular.otf");
-}
+// Import from Source Code Pro Regular from Adobe Fonts as source-code-pro
+// font-family: source-code-pro, monospace;
+// font-weight: 400;
+// font-style: normal;
 
-@font-face {
-    font-family: "Fira Sans Light";
-    src: url("../fonts/FiraSans-Light.otf");
-}
+@import url("https://use.typekit.net/cbf6fai.css");
 
-@font-face {
-    font-family: "Fira Sans";
-    src: url("../fonts/FiraSans-Regular.otf");
-}
+// Import Fira Sans and Zilla Slab from Mozilla CDN
 
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: bold;
-    src: url("../fonts/FiraSans-SemiBold.otf");
-}
+@import url("https://code.cdn.mozilla.net/fonts/fira.css");
+@import url("https://code.cdn.mozilla.net/fonts/zilla-slab.css");
 
-@font-face {
-    font-family: "Fira Sans";
-    font-style: italic;
-    src: url("../fonts/FiraSans-Italic.otf");
-}
+// Fonts used:
 
-@font-face {
-    font-family: "Zilla Slab";
-    src: url("../fonts/ZillaSlab-Regular.otf");
-}
+// Source code blocks and inline code #####################
+// @font-face {
+//     font-family: "Source Code Pro";
+// }
 
-@font-face {
-    font-family: "Zilla Slab";
-    font-weight: bold;
-    src: url("../fonts/ZillaSlab-Bold.otf");
-}
+// All headers, main sans serif font ######################
+// @font-face {
+//     font-family: "Fira Sans";
+// }
+// Generally Semibold rather than bold#####################
+// font-weight: 300;
 
-@font-face {
-    font-family: "Zilla Slab";
-    font-style: italic;
-    src: url("../fonts/ZillaSlab-Italic.otf");
-}
+// Main body font #########################################
+// @font-face {
+//     font-family: "Zilla Slab";
+//     src: url("../fonts/ZillaSlab-Regular.otf");
+// }

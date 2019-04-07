@@ -23,14 +23,13 @@
 .hometitle {
     margin: 1.5rem auto;
     font-size: 1.3rem;
-    font-family: $masthead-font-family;
 }
 
 nav.homenav {
     text-align: center;
 
     ul {
-        font-family: $masthead-font-family;
+        font-family: $root-font-family;
         list-style: none;
         padding: 0;
 
@@ -40,7 +39,6 @@ nav.homenav {
             a {
             color: $body-color;
             font-size: .85rem;
-            font-weight: bold;
             padding: 0 0.75em;
             text-decoration: none;
             &:hover {
