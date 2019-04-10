@@ -11,7 +11,7 @@ pre {
 code {
   padding: 0 .2em;
   font-size: 83%;
-  color: $code-color;
+  color: inherit;
   background-color: $code-bg-color;
   border-radius: 3px;
   border: 1px solid $code-border-color;

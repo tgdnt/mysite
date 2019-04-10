@@ -31,10 +31,6 @@ p {
   margin-bottom: 1rem;
 }
 
-strong {
-  color: #303030;
-}
-
 ul, ol, dl {
   font-family: $body-font-family;
   margin-top: 0;
@@ -181,16 +177,13 @@ aside {
     font-family: $body-font-family;
     margin-bottom: 1rem;
     padding: 1rem;
-    color: #8a8a8a;
+    color: #545454;
     background-color: $code-bg-color;
     font-size: 0.9rem;
     border-radius: 3px;
     border: 1px solid $code-border-color;
     border-radius: 0.5em;
     line-height: 1.5;
-    strong {
-        font-size: 0.9rem;
-    }
     code {
         background-color: #efefef;
     }
