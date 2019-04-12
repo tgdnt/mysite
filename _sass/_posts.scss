@@ -129,4 +129,15 @@ footer {
     .copyright {
         max-width: 190px;
     }
+    .backtotop {
+        float: right;
+        position: relative;
+        top: -2.2rem;
+        border: 0;
+        &:active,
+        &:hover {
+            color: $link-color;
+            border: 0;
+        }
+    }
 }
