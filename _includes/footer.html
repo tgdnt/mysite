@@ -1,9 +1,16 @@
-<footer class="footer">
-    <small>
-        {% if page.license == 'CC-BY-SA' %}
-            <em xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</em> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Tiago Donato</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-        {% else %}
-            &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        {% endif %}
-    </small>
+<footer>
+    {% if page.license == 'CC-BY-SA' %}
+    <div class="license cc">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <picture>
+                <source media="(min-width: 608px)" srcset="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+                <img src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+            </picture>
+        </a>
+    </div>
+    {% else %}
+    <div class="license copyright">
+       &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+    </div>
+    {% endif %}
 </footer>
