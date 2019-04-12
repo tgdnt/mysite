@@ -119,25 +119,32 @@ footer {
             color: #313131;
         }
     }
+
     .license {
-        display: block;
-        margin: 0 auto;
-    }
-    .cc {
         max-width: 88px;
+        float: left;
+        img {
+            border-radius: 0;
+        }
+        @media (min-width:$large-breakpoint) {
+            display: block;
+            margin: 0 auto;
+            float: none;
+        }
     }
-    .copyright {
-        max-width: 190px;
-    }
+
     .backtotop {
+        border: 0;
         float: right;
         position: relative;
-        top: -2.2rem;
-        border: 0;
+        top: -2px;
         &:focus,
         &:hover {
             color: $link-color;
             border: 0;
+        }
+        @media (min-width:$large-breakpoint) {
+            top: -2.2rem;
         }
     }
 }

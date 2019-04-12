@@ -1,6 +1,5 @@
 <footer>
-    {% if page.license == 'CC-BY-SA' %}
-    <div class="license cc">
+    <div class="license">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
             <picture>
                 <source media="(min-width: 608px)" srcset="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
@@ -8,10 +7,5 @@
             </picture>
         </a>
     </div>
-    {% else %}
-    <div class="license copyright">
-       &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-    </div>
-    {% endif %}
     <a class="backtotop" href="#">back to top</a>
 </footer>
