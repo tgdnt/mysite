@@ -26,7 +26,7 @@
   a {
       border: none;
       &:hover,
-      &:active {
+      &:focus {
           text-decoration: none;
           border: none;
       }
@@ -47,7 +47,7 @@
     font-family: $body-font-family;
     color: $body-color;
     font-size: 1rem;
-    &:active,
+    &:focus,
     &:hover {
         text-decoration: none;
     }
@@ -64,7 +64,7 @@
     text-decoration: none;
     border: none;
     &:hover,
-    &:active {
+    &:focus {
         color: $link-color;
         border: none;
         text-decoration: underline;
@@ -134,7 +134,7 @@ footer {
         position: relative;
         top: -2.2rem;
         border: 0;
-        &:active,
+        &:focus,
         &:hover {
             color: $link-color;
             border: 0;
