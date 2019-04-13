@@ -121,6 +121,7 @@ a[href^="#fnref:"] {
             font-size: 60%;
         }
     }
+    &:focus,
     &:hover {
         border: none;
     }
@@ -132,7 +133,7 @@ a[href^="#fnref:"] {
     position: relative;
     top: 0.1rem;
     border: 0;
-    &:hover {border: 0;}
+
 }
 
 // List of footnotes
