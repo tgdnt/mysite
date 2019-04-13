@@ -26,6 +26,7 @@ defaults:
     values:
       author: "Tiago Donato"
       layout: "page"
+      license: "by-nc-nd"
   -
     scope:
       path: ""
@@ -33,6 +34,7 @@ defaults:
     values:
       layout: "post"
       author: "Tiago Donato"
+      license: "by-sa"
 
 ## Social links:
 # facebook: myfacebook
