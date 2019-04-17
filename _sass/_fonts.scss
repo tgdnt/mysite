@@ -10,6 +10,13 @@
 @import url("https://code.cdn.mozilla.net/fonts/fira.css");
 @import url("https://code.cdn.mozilla.net/fonts/zilla-slab.css");
 
+// Add Libertinus Serif Italic, used for em elements alongside zilla-slab
+
+@font-face {
+    font-family: libertinus-serif-italic;
+    font-style: italic;
+    src: url("../fonts/libertinusserif-italic.otf");
+}
 // Fonts used:
 
 // Source code blocks and inline code #####################
