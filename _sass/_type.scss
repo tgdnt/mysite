@@ -133,7 +133,10 @@ a[href^="#fnref:"] {
     position: relative;
     top: 0.1rem;
     border: 0;
-
+    &:hover {
+        border: none;
+        color: $link-color;
+    }
 }
 
 // List of footnotes
