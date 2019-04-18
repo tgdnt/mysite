@@ -141,7 +141,7 @@ a[href^="#fnref:"] {
     }
     &::before {
         visibility: visible;
-        content: "\21A9";
+        content: "\21A9\FE0E";
     }
 }
 
