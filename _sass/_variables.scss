@@ -13,13 +13,13 @@ $blue: #0a79b6;
 // $blue: #6a9fb5;
 $brown: #8f5536;
 
-$root-font-family: "Fira Sans", sans-serif;
+$root-font-family: "Fira Sans","Trebuchet MS", Helvetica, sans-serif;
 $root-font-size: 16.5px;
 $root-line-height: 1.7;
 
 $body-color: #000;
 $body-bg: #fff;
-$body-font-family: "Zilla Slab", serif;
+$body-font-family: "Zilla Slab","Palatino Linotype", "Book Antiqua", Palatino, serif;
 $link-color: #b60000;
 
 $border-color: #e5e5e5;
@@ -27,7 +27,7 @@ $border-color: #e5e5e5;
 $large-breakpoint: 38rem;
 $large-font-size: 20px;
 
-$code-font-family: source-code-pro, monospace;
+$code-font-family: source-code-pro, "Lucida Console", Monaco, monospace;
 $code-color: $body-color;
 $code-bg-color: #f9f9f9;
 $code-border-color: #f0f0f0;
