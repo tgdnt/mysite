@@ -23,18 +23,17 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
-      author: "Tiago Donato"
       layout: "page"
-      license: "by-nc-nd"
+      license: "by-nc-sa"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "Tiago Donato"
-      license: "by-sa"
+      license: "by-nc-sa"
 
 ## Social links:
 # facebook: myfacebook
