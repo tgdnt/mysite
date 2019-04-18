@@ -14,7 +14,7 @@ nav:
     url: /projects
   - title: Blog
     url: /blog
-paginate: 3
+paginate: 2
 paginate_path: "/blog/page:num/"
 exclude: [_orgsource, vendor, Gemfile, Gemfile.lock]
 no_related_posts: true
