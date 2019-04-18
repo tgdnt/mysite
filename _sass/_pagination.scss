@@ -4,35 +4,36 @@
 // there are no more previous or next posts to show.
 
 .pagination {
-  overflow: hidden; // clearfix
-  color: #eee;
-  text-align: center;
-  font-size: 0.95rem;
+    max-width: 25rem;
+    margin: 0 auto;
 }
 
-// Pagination items can be `span`s or `a`s
 .pagination-item {
-  display: block;
-  i {
-      font-size: 0.75rem;
-  }
-}
-
-// Only provide a hover state for linked pagination items
-a.pagination-item {
-    color: $body-color;
-    &:hover {
-        color: $link-color;
-        text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    font-size: 0.95rem;
+    width: 49%;
+    i {
+        font-size: 0.75rem;
+    }
+    span {
+        color: #eee;
+    }
+    a {
+        color: $body-color;
+        &:hover {
+            color: $link-color;
+            text-decoration: none;
+        }
+    }
+    &:first-child {
+        text-align: left;
     }
 }
-
-@media (min-width: 30em) {
+@media (min-width: $large-breakpoint) {
   .pagination {
   }
 
   .pagination-item {
-    float: left;
-    width: 50%;
   }
 }
