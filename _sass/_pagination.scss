@@ -5,7 +5,6 @@
 
 .pagination {
   overflow: hidden; // clearfix
-  // margin: 0 -1.5rem 1rem;
   color: #eee;
   text-align: center;
   font-size: 0.95rem;
@@ -14,13 +13,6 @@
 // Pagination items can be `span`s or `a`s
 .pagination-item {
   display: block;
-  // padding: 1rem;
-  // border: solid #eee;
-  // border-width: 1px 0;
-
-  &:first-child {
-    // margin-bottom: -1px;
-  }
   i {
       font-size: 0.75rem;
   }
@@ -30,7 +22,6 @@
 a.pagination-item {
     color: $body-color;
     &:hover {
-        // background-color: #f5f5f5;
         color: $link-color;
         text-decoration: none;
     }
@@ -38,23 +29,10 @@ a.pagination-item {
 
 @media (min-width: 30em) {
   .pagination {
-    // margin: 3rem 0;
   }
 
   .pagination-item {
     float: left;
     width: 50%;
-    // border-width: 1px;
-
-    &:first-child {
-      // margin-bottom: 0;
-      // border-top-left-radius:    4px;
-      // border-bottom-left-radius: 4px;
-    }
-    &:last-child {
-      // margin-left: -1px;
-      // border-top-right-radius:    4px;
-      // border-bottom-right-radius: 4px;
-    }
   }
 }
