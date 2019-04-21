@@ -9,7 +9,8 @@
 .social-links {
     margin-top: 20px auto 0 auto;
 
-  .link {
+  a {
+      color: $body-color;
     margin: 0;
     text-decoration: none;
     position: relative;
@@ -18,9 +19,7 @@
     height: 35px;
 
     &:hover {
-      .icon {
-          fill: $link-color;
-      }
+       color: $link-color;
     }
     &:hover:before {
       opacity: 1;
@@ -67,17 +66,17 @@
 }
 
 // Positional adjustments for certain icons
-.icon-mastodon {
-    position: relative;
-    top: 3px;
-}
+/* .icon-mastodon { */
+/*     position: relative; */
+/*     top: 3px; */
+/* } */
 
-.icon-github {
-    position: relative;
-    top: 1px;
-}
+/* .icon-github { */
+/*     position: relative; */
+/*     top: 1px; */
+/* } */
 
-.icon-mail {
-    position: relative;
-    top: 2px;
-}
+/* .icon-mail { */
+/*     position: relative; */
+/*     top: 2px; */
+/* } */
