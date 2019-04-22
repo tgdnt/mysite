@@ -26,14 +26,14 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      license: "by-nc-sa"
+      license: "by-sa"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      license: "by-nc-sa"
+      license: "by-sa"
 
 ## Social links:
 # facebook: myfacebook
