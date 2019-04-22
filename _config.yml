@@ -36,26 +36,31 @@ defaults:
       license: "by-sa"
 
 ## Social links:
-# facebook: myfacebook
-# twitter: tgdnt
-# google: mygoogle
-# instagram: tgdnt
-# pinterest: mypinterest
-linkedin: tiagodonato
-# youtube: tiagodonato@gmail.com
-# spotify: myspotify
-github: tgdnt
-# gitlab: mygitlab
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
-# vimeo: tiagodonato
-# lanyrd: mylanyrd
-mastodon: masto.donte.com.br/@tgdnt
-keybase: tgdnt
-email: tiago@tgdnt.com
+## Use variables:
+##   slug: matching the fork-awesome slug
+##   title: what you want to see in the overlay
+##   url: what you want the icon to link to
+social-icons:
+  -
+    slug: linkedin
+    title: linkedin.com/in/tiagodonato
+    url: https://linkedin.com/in/tiagodonato
+  -
+    slug: github
+    title: github.com/tgdnt
+    url: https://github.com/tgdnt
+  -
+    slug: mastodon
+    title: masto.donte.com.br/@tgdnt
+    url: https://masto.donte.com.br/@tgdnt
+  -
+    slug: keybase
+    title: keybase.io/tgdnt
+    url: https://keybase.io/tgdnt
+  -
+    slug: envelope
+    title: tiago@tgdnt.com
+    url: mailto:tiago@tgdnt.com
 
 comments_email: tiago@tgdnt.com
 
