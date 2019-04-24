@@ -3,6 +3,10 @@ permalink: /:slug/
 
 ## Setup
 title: Tiago Donato
+# description: 
+lang: en_US
+author: Tiago Donato
+logo: assets/images/apple-touch-icon-precomposed.png
 url: https://www.tgdnt.com
 baseurl: ""
 timezone: America/Chicago
@@ -74,16 +78,19 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-## About/contact
-author:
-  name: Tiago Donato
-  url: https://tgdnt.com
-  email: tiago@tgdnt.com
-
 ## Gems
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-seo-tag
 #  - classifier-reborn
-#  - jekyll-seo-tag
 #  - jekyll-archives
+
+# Additional data for jekyll-seo-tag
+social:
+  name: Tiago Donato
+  links:
+    - https://masto.donte.com.br/@tgdnt
+    - https://linkedin.com/in/tiagodonato
+    - https://keybase.io/tgdnt
+    - https://github.com/tgdnt
