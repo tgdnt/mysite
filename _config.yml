@@ -6,6 +6,7 @@ title: Tiago Donato
 # description: 
 lang: en_US
 author: Tiago Donato
+email: tiago@tgdnt.com
 logo: /assets/images/site-logo.png
 url: https://www.tgdnt.com
 baseurl: ""
@@ -30,6 +31,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+
       license: "by-sa"
   -
     scope:
@@ -65,8 +67,6 @@ social-icons:
     slug: envelope
     title: tiago@tgdnt.com
     url: mailto:tiago@tgdnt.com
-
-comments_email: tiago@tgdnt.com
 
 avatar:
   alt: "Tiago Donato"
