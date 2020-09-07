@@ -6,7 +6,6 @@ title: Tiago Donato
 # description: 
 lang: en_US
 author: Tiago Donato
-email: tiago@tgdnt.com
 logo: /assets/images/site-logo.png
 url: https://www.tgdnt.com
 baseurl: ""
@@ -63,10 +62,10 @@ social-icons:
     slug: keybase
     title: keybase.io/tgdnt
     url: https://keybase.io/tgdnt
-  -
-    slug: envelope
-    title: tiago@tgdnt.com
-    url: mailto:tiago@tgdnt.com
+  #-
+    #slug: envelope
+    #title:
+    #url:
 
 avatar:
   alt: "Tiago Donato"
