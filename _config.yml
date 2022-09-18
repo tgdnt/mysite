@@ -7,7 +7,7 @@ title: Tiago Donato
 lang: en_US
 author: Tiago Donato
 logo: /assets/images/site-logo.png
-url: https://www.tgdnt.com
+url: https://www.tiagodonato.net
 baseurl: ""
 timezone: America/Chicago
 
@@ -58,10 +58,10 @@ social-icons:
     slug: mastodon
     title: masto.donte.com.br/@tgdnt
     url: https://masto.donte.com.br/@tgdnt
-  -
-    slug: keybase
-    title: keybase.io/tgdnt
-    url: https://keybase.io/tgdnt
+  #-
+    #slug: keybase
+    #title: keybase.io/tgdnt
+    #url: https://keybase.io/tgdnt
   #-
     #slug: envelope
     #title:
@@ -91,5 +91,5 @@ social:
   links:
     - https://masto.donte.com.br/@tgdnt
     - https://linkedin.com/in/tiagodonato
-    - https://keybase.io/tgdnt
+    #- https://keybase.io/tgdnt
     - https://github.com/tgdnt
