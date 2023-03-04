@@ -58,14 +58,10 @@ social-icons:
     slug: mastodon
     title: masto.donte.com.br/@tgdnt
     url: https://masto.donte.com.br/@tgdnt
-  #-
-    #slug: keybase
-    #title: keybase.io/tgdnt
-    #url: https://keybase.io/tgdnt
-  #-
-    #slug: envelope
-    #title:
-    #url:
+  -
+    slug: envelope
+    title: mail@tiagodonato.net
+    url: mailto:mail@tiagodonato.net
 
 avatar:
   alt: "Tiago Donato"
