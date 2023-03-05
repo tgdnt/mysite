@@ -6,6 +6,7 @@ title: Tiago Donato
 # description: 
 lang: en_US
 author: Tiago Donato
+email: contact@tiagodonato.net
 logo: /assets/images/site-logo.png
 url: https://www.tiagodonato.net
 baseurl: ""
@@ -58,10 +59,10 @@ social-icons:
     slug: mastodon
     title: masto.donte.com.br/@tgdnt
     url: https://masto.donte.com.br/@tgdnt
-  -
-    slug: envelope
-    title: mail@tiagodonato.net
-    url: mailto:mail@tiagodonato.net
+  # -
+  #   slug: envelope
+  #   title: contact@tiagodonato.net
+  #   url: mailto:contact@tiagodonato.net
 
 avatar:
   alt: "Tiago Donato"
@@ -77,6 +78,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-email-protect
   - jekyll-seo-tag
 #  - classifier-reborn
 #  - jekyll-archives
